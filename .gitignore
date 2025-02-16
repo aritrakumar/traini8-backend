@@ -1,0 +1,24 @@
+# Ignore IntelliJ, Eclipse, and VSCode project files
+.idea/
+.vscode/
+*.iml
+
+# Ignore compiled Java files
+*.class
+target/
+
+# Ignore logs
+logs/
+*.log
+debug.log
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
